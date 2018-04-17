@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosAPI", "CosmosAPI\CosmosAPI.csproj", "{B17FDBAB-3EE1-488A-AA4C-3C3DB75CBF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F76B213A-5B3A-4DFF-94CB-02C60E29FD82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F0285CC9-20C3-4418-B60E-E23423524E43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17FDBAB-3EE1-488A-AA4C-3C3DB75CBF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17FDBAB-3EE1-488A-AA4C-3C3DB75CBF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17FDBAB-3EE1-488A-AA4C-3C3DB75CBF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17FDBAB-3EE1-488A-AA4C-3C3DB75CBF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76B213A-5B3A-4DFF-94CB-02C60E29FD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76B213A-5B3A-4DFF-94CB-02C60E29FD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76B213A-5B3A-4DFF-94CB-02C60E29FD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76B213A-5B3A-4DFF-94CB-02C60E29FD82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0285CC9-20C3-4418-B60E-E23423524E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0285CC9-20C3-4418-B60E-E23423524E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0285CC9-20C3-4418-B60E-E23423524E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0285CC9-20C3-4418-B60E-E23423524E43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B1C4870-B2CE-40B4-AC4F-9792160346DD}
+	EndGlobalSection
+EndGlobal
