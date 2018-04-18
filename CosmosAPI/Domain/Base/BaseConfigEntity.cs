@@ -1,4 +1,6 @@
-﻿using Domain.Interfaces;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using Domain.Interfaces;
 
 namespace Domain.Base
 {
@@ -6,5 +8,10 @@ namespace Domain.Base
     {
 		public string Id { get; set; }
 		public string Name { get; set; }
+	    public bool Validate(ICollection<ValidationResult> results)
+	    {
+		    var ctx = new ValidationContext(this, null, null);
+		    return Validator.TryValidateObject(this, ctx, results, true);
+	    }
 	}
 }

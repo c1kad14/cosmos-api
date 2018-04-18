@@ -1,11 +1,10 @@
-﻿using Domain.Interfaces;
+﻿using Domain.Base;
 using Newtonsoft.Json;
 
 namespace Domain.Mapping
 {
-    public class Mapping : IBaseEntity
+    public class Mapping : BaseEntity
 	{
-		public string Id { get; set; }
 		public string Local { get; set; }
 		public string Remote { get; set; }
 		public string InterfaceId { get; set; }
